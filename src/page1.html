@@ -10,9 +10,9 @@
     
     <header class="p-5 flex max-w-300 m-auto items-center justify-between">
         <div>
-            <p>.</p>
+            <p>LOGO</p>
         </div>
-        <div class="flex gap-10">
+        <div class="hidden lg:flex gap-10">
             <p>Booking</p>
             <p>Facilities</p>
             <p>About Us</p>
@@ -24,16 +24,60 @@
         </div>
     </header>
 
-    <section class="p-5 flex max-w-300 m-auto  justify-between relative">
-        <div class="w-[40%] flex flex-col gap-7 mt-20">
+    <section class="p-5 flex max-w-300 m-auto  justify-between relative flex-col lg:flex-row">
+        <div class="w-[99%] lg:w-[40%] flex flex-col gap-7 mt-20">
             <h1 class="text-[25px] lg:text-[50px] font-bold">Find your perfect place to stay</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <p>▶ Watch video</p>
         </div>
-        <div class="w-[50%]">
+        <div class="w-[99%] lg:w-[50%]">
             <img src="./images/sec1im.png" alt="">
         </div>
-        <img class="absolute bottom-6" src="./images/sec1im2.png" alt="">
+        <img class="hidden lg:flex absolute bottom-6" src="./images/sec1im2.png" alt="">
+    </section>
+
+    <section class="p-5 flex max-w-300 m-auto  justify-between flex-col gap-7 mt-20">
+        <div>
+            <h1 class="text-[25px] lg:text-[50px] font-bold">Our most popular Hotels</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-between items-center">
+
+            <div class="w-[99%] lg:w-[30%] flex flex-col gap-2">
+                <img  src="./images/sec2im1.png" alt="">
+                <p class="text-green-500">London NW8 7JT England</p>
+                <h1 class="text-[12.5px] lg:text-[25px] font-bold">Danubius Hotel Regents Park</h1>
+                <div class="flex items-center gap-5">
+                    <p>$200 Par Night</p>
+                    <img class="w-[20%]" src="./images/stars.png" alt="">
+                    <p>4.8</p>
+                </div>
+            </div>
+
+            <div class="w-[99%] lg:w-[30%] flex flex-col gap-2">
+                <img  src="./images/sec2im2.png" alt="">
+                <p class="text-green-500">The Resident Soho</p>
+                <h1 class="text-[12.5px] lg:text-[25px] font-bold">Danubius Hotel Regents Park</h1>
+                <div class="flex items-center gap-5">
+                    <p>$200 Par Night</p>
+                    <img class="w-[20%]" src="./images/stars.png" alt="">
+                    <p>4.8</p>
+                </div>
+            </div>
+
+            <div class="w-[99%] lg:w-[30%] flex flex-col gap-2">
+                <img  src="./images/sec2im3.png" alt="">
+                <p class="text-green-500">London Bridge Hotel</p>
+                <h1 class="text-[12.5px] lg:text-[25px] font-bold">Danubius Hotel Regents Park</h1>
+                <div class="flex items-center gap-5">
+                    <p>$200 Par Night</p>
+                    <img class="w-[20%]" src="./images/stars.png" alt="">
+                    <p>4.8</p>
+                </div>
+            </div>
+
+        </div>
     </section>
 
 </body>
